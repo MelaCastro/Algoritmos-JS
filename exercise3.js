@@ -1,3 +1,4 @@
+//Factorial de un numero
 // crear un método qué reciba un número cualquiera y devuelva el Factorial de ese número. n! = n * (n-1)
 
 function factorial(num){
