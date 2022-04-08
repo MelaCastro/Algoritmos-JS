@@ -1,3 +1,4 @@
+// Múltiplos de 3 o 5
 // Encuentra la suma de todos los múltiplos de 3 o 5 por debajo de 1000.
 function sumMultiples () {
   let sum=0
