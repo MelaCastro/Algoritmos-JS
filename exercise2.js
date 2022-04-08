@@ -1,3 +1,4 @@
+// Números pares de Fibonacci
 //Al considerar los términos en la sucesión de Fibonacci cuyos valores no superan los cuatro millones, encuentre la suma de los términos de valor par.
 let sum = 0
 limit = 4000000
