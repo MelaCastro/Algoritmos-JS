@@ -1,6 +1,8 @@
-//Al considerar los términos en la sucesión de Fibonacci cuyos valores no superan los cuatro millones, encuentre la suma de los términos de valor par.
+// Al considerar los términos en la sucesión de Fibonacci cuyos valores no superan
+// los cuatro millones, encuentre la suma de los términos de valor par.
 let sum = 0
 limit = 4000000
+
 function fibonacci( num1, num2) {   
   let numAfter = num1 + num2
   if (numAfter % 2 === 0) sum += numAfter    
