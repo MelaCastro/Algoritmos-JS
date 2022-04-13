@@ -1,11 +1,14 @@
-//Factorial de un numero
-// crear un método qué reciba un número cualquiera y devuelva el Factorial de ese número. n! = n * (n-1)
+// Factorial de un numero
+// crear un método qué reciba un número cualquiera y devuelva el Factorial de ese número.
+// n! = n * (n-1)
 
-function factorial(num){
-  result = 1
-	for (let i = 1; i <= num; i++) {
+function factorial() {
+	let num = 6
+  let result = 1
+	for(let i = 1; i <= num; i++) {
 		result = result * i
 	}
-  console.log(`el factorial del numero es: ${result}`) 
+  console.log(`El factorial del numero ${num} es: ${result}`) 
 }
-factorial(6)
+
+factorial()
